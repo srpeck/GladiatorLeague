@@ -1,0 +1,22 @@
+Gladiator League
+
+1. Download and install dependencies.
+	Git for Windows:
+	http://git-scm.com/download/win
+
+	Lua for Windows:
+	https://code.google.com/p/luaforwindows/downloads/detail?name=LuaForWindows_v5.1.4-46.exe&can=2&q=
+
+2. Double-click on setup.sh to run the initialization process.
+
+3. Double-click on start.sh to run the Twitch IRC bot.
+
+Twitch IRC bot administrator chat commands:
+	!quit 
+		Saves state to files and shuts down Twitch IRC bot.
+
+	!save
+		Saves state to files and updates the gladiatorleague.github.io website with new state.
+
+	!auth [name] managers
+		Adds the named person to the list of Gladiator Managers, authorizing them to use those chat commands.
